@@ -1,0 +1,311 @@
+{
+  "network": "StudioNet",
+  "source_commit": "881bf49198abc66538440d7c0b80324993bcf134",
+  "transactions": [
+    {
+      "step": "deploy",
+      "args": [
+        "deploy",
+        "--contract",
+        "contracts/AtomicIntervalMeter.py"
+      ],
+      "signer": "0x7a413BB4AB62E31d62d4cD9efC8C8a8Dae37FB42",
+      "nonce": "0x1ee",
+      "hash": "0x9401cd1dff0e88cf7477e1e7d1a2526cf4b751e0961f783c98b115cbdd94852d",
+      "receipt": {
+        "hash": "0x9401cd1dff0e88cf7477e1e7d1a2526cf4b751e0961f783c98b115cbdd94852d",
+        "address": "0x5e97b6AadaCAafE31c6Dff4e491a9667ED82d49b",
+        "status": "FINALIZED",
+        "execution": "SUCCESS",
+        "consensus": "MAJORITY_AGREE",
+        "committed": true,
+        "leader_only": false,
+        "initial_validators": 5,
+        "agree_votes": 3,
+        "idle_votes": 2,
+        "disagree_votes": 0,
+        "validator_execution_seen": true
+      }
+    },
+    {
+      "step": "import",
+      "args": [
+        "write",
+        "0x5e97b6AadaCAafE31c6Dff4e491a9667ED82d49b",
+        "import_table"
+      ],
+      "signer": "0x7a413BB4AB62E31d62d4cD9efC8C8a8Dae37FB42",
+      "nonce": "0x1ef",
+      "hash": "0xe1a727d79d6cfbf923174fc0e5f5df83d17c77873756c8838041172191399c10",
+      "receipt": {
+        "hash": "0xe1a727d79d6cfbf923174fc0e5f5df83d17c77873756c8838041172191399c10",
+        "address": "0x5e97b6AadaCAafE31c6Dff4e491a9667ED82d49b",
+        "status": "FINALIZED",
+        "execution": "SUCCESS",
+        "consensus": "MAJORITY_AGREE",
+        "committed": true,
+        "leader_only": false,
+        "initial_validators": 5,
+        "agree_votes": 3,
+        "idle_votes": 2,
+        "disagree_votes": 0,
+        "validator_execution_seen": true
+      }
+    }
+  ],
+  "address": "0x5e97b6AadaCAafE31c6Dff4e491a9667ED82d49b",
+  "source": {
+    "address": "0x5e97b6AadaCAafE31c6Dff4e491a9667ED82d49b",
+    "source_match": true,
+    "sha256": "f34c4b20c13fbca5e8ebe7bc5583d1aea973cea6f73c259f36e0607a604053bd"
+  },
+  "table_id": "317e1509e914fe242b31bf9bd53cc0295635451fc7ecf9d4a4ddbff4ebe9dcd7",
+  "table": {
+    "expires_ntp": 4023129600,
+    "rows": [
+      [
+        2272060800,
+        10
+      ],
+      [
+        2287785600,
+        11
+      ],
+      [
+        2303683200,
+        12
+      ],
+      [
+        2335219200,
+        13
+      ],
+      [
+        2366755200,
+        14
+      ],
+      [
+        2398291200,
+        15
+      ],
+      [
+        2429913600,
+        16
+      ],
+      [
+        2461449600,
+        17
+      ],
+      [
+        2492985600,
+        18
+      ],
+      [
+        2524521600,
+        19
+      ],
+      [
+        2571782400,
+        20
+      ],
+      [
+        2603318400,
+        21
+      ],
+      [
+        2634854400,
+        22
+      ],
+      [
+        2698012800,
+        23
+      ],
+      [
+        2776982400,
+        24
+      ],
+      [
+        2840140800,
+        25
+      ],
+      [
+        2871676800,
+        26
+      ],
+      [
+        2918937600,
+        27
+      ],
+      [
+        2950473600,
+        28
+      ],
+      [
+        2982009600,
+        29
+      ],
+      [
+        3029443200,
+        30
+      ],
+      [
+        3076704000,
+        31
+      ],
+      [
+        3124137600,
+        32
+      ],
+      [
+        3345062400,
+        33
+      ],
+      [
+        3439756800,
+        34
+      ],
+      [
+        3550089600,
+        35
+      ],
+      [
+        3644697600,
+        36
+      ],
+      [
+        3692217600,
+        37
+      ]
+    ],
+    "schema": "atomic-interval/v1",
+    "sources": [
+      {
+        "expires_ntp": 4023129600,
+        "file_sha1": "a9bad14584c31c70758402aab37bfd545923836a",
+        "updated_ntp": 3992312697,
+        "url": "https://hpiers.obspm.fr/iers/bul/bulc/ntp/leap-seconds.list"
+      },
+      {
+        "expires_ntp": 4023129600,
+        "file_sha1": "39096da8b66c33126ea48831363f817b36782978",
+        "updated_ntp": 3676924800,
+        "url": "https://tf.nist.gov/leap-seconds.list"
+      }
+    ]
+  },
+  "views": {
+    "2016 insertion": {
+      "method": "measure",
+      "args": [
+        "317e1509e914fe242b31bf9bd53cc0295635451fc7ecf9d4a4ddbff4ebe9dcd7",
+        "2016-12-31T23:59:59Z",
+        "2017-01-01T00:00:00Z"
+      ],
+      "value": {
+        "elapsed_seconds": 2,
+        "end_atomic": 3692217637,
+        "offset_changes": [
+          [
+            3692217600,
+            37
+          ]
+        ],
+        "start_atomic": 3692217635,
+        "table_id": "317e1509e914fe242b31bf9bd53cc0295635451fc7ecf9d4a4ddbff4ebe9dcd7"
+      }
+    },
+    "advance into insertion": {
+      "method": "advance",
+      "args": [
+        "317e1509e914fe242b31bf9bd53cc0295635451fc7ecf9d4a4ddbff4ebe9dcd7",
+        "2016-12-31T23:59:59Z",
+        1
+      ],
+      "value": "2016-12-31T23:59:60Z"
+    },
+    "advance out of insertion": {
+      "method": "advance",
+      "args": [
+        "317e1509e914fe242b31bf9bd53cc0295635451fc7ecf9d4a4ddbff4ebe9dcd7",
+        "2016-12-31T23:59:60Z",
+        1
+      ],
+      "value": "2017-01-01T00:00:00Z"
+    },
+    "rewind to insertion": {
+      "method": "advance",
+      "args": [
+        "317e1509e914fe242b31bf9bd53cc0295635451fc7ecf9d4a4ddbff4ebe9dcd7",
+        "2017-01-01T00:00:00Z",
+        -1
+      ],
+      "value": "2016-12-31T23:59:60Z"
+    },
+    "two insertions": {
+      "method": "measure",
+      "args": [
+        "317e1509e914fe242b31bf9bd53cc0295635451fc7ecf9d4a4ddbff4ebe9dcd7",
+        "2015-06-30T23:59:59Z",
+        "2017-01-01T00:00:00Z"
+      ],
+      "value": {
+        "elapsed_seconds": 47520003,
+        "end_atomic": 3692217637,
+        "offset_changes": [
+          [
+            3644697600,
+            36
+          ],
+          [
+            3692217600,
+            37
+          ]
+        ],
+        "start_atomic": 3644697634,
+        "table_id": "317e1509e914fe242b31bf9bd53cc0295635451fc7ecf9d4a4ddbff4ebe9dcd7"
+      }
+    },
+    "ordinary second": {
+      "method": "measure",
+      "args": [
+        "317e1509e914fe242b31bf9bd53cc0295635451fc7ecf9d4a4ddbff4ebe9dcd7",
+        "2017-01-01T00:00:00Z",
+        "2017-01-01T00:00:01Z"
+      ],
+      "value": {
+        "elapsed_seconds": 1,
+        "end_atomic": 3692217638,
+        "offset_changes": [],
+        "start_atomic": 3692217637,
+        "table_id": "317e1509e914fe242b31bf9bd53cc0295635451fc7ecf9d4a4ddbff4ebe9dcd7"
+      }
+    },
+    "invalid leap label": {
+      "method": "advance",
+      "args": [
+        "317e1509e914fe242b31bf9bd53cc0295635451fc7ecf9d4a4ddbff4ebe9dcd7",
+        "2016-12-30T23:59:60Z",
+        0
+      ],
+      "reverted": true
+    },
+    "expiry boundary": {
+      "method": "advance",
+      "args": [
+        "317e1509e914fe242b31bf9bd53cc0295635451fc7ecf9d4a4ddbff4ebe9dcd7",
+        "2027-06-27T23:59:59Z",
+        1
+      ],
+      "reverted": true
+    },
+    "before coverage": {
+      "method": "advance",
+      "args": [
+        "317e1509e914fe242b31bf9bd53cc0295635451fc7ecf9d4a4ddbff4ebe9dcd7",
+        "1971-12-31T23:59:59Z",
+        1
+      ],
+      "reverted": true
+    }
+  },
+  "verified": true
+}

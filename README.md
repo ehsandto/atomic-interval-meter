@@ -5,6 +5,8 @@ and advances or rewinds a timestamp by a signed count of SI seconds. It handles
 `23:59:60Z` explicitly. The 2016 interval from `23:59:59Z` on December 31
 to midnight on January 1 takes two seconds.
 
+[StudioNet proof matrix](LIVE_PROOFS.md) · [Submission text](SUBMISSION.md)
+
 ## Consensus
 
 `import_table()` is permissionless and takes no caller evidence. The leader
